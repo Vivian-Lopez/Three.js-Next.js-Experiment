@@ -1,10 +1,12 @@
 "use client"
 
-import { extend } from '@react-three/fiber'
-import css from "./globals.css"
-import { Canvas } from '@react-three/fiber';
 import React from 'react'
+import css from "./globals.css"
+import { extend } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber';
 import Floor from "./components/Floor";
+import LightBulb from './components/LightBulb';
+import Box from './components/Box'
 
 export default function page() {
   return (
@@ -18,8 +20,9 @@ export default function page() {
       >
         {/* The ambientLight component creates the scene white */}
         <ambientLight color={"white"} intensity={0.3} />
+        <LightBulb position={[0, 3, 0]} />
+        <Box rotateX={3} rotateY={0.2} />
         <Floor position={[0, -1, 0]} />
-
       </Canvas>
     </div>
   );
