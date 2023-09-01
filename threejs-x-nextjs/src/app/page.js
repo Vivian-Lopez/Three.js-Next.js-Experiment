@@ -29,6 +29,9 @@ export default function Home() {
         <OrbitControls />
         {/* <Floor position={[0, -1, 0]} /> */}
       </Canvas>
+      <div style={{color: "#FFFFFF"}}>
+          Brap
+      </div>
     </div>
   );
 }
