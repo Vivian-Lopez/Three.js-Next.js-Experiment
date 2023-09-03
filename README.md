@@ -1,5 +1,5 @@
-# Three.js-Next.js-expirement
-In this repo, I'm experimenting with using Three.js in Next.js to create a React app that has 3D objects.
+# React-Three-Fiber
+In this repo, I'm experimenting with using Three.js in Next.js with the react-three-fiber library to create a React app that has 3D objects.
 
 3D cube that can be rotated:
 
